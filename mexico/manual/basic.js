@@ -7,7 +7,7 @@ const ENDPOINT = "http://aplicaciones4.sct.gob.mx/sibuac_internet/ControllerUI";
 
 const COMBUSTIBLE = 21.567; // Combustible actual dependiendo de gasolina
 const RENDIMIENTO = 12; // Rendimiento gasolina KM/Litro
-const DISTANCIA_KILOMETROS = 5510; // Distancia en kilometros de punto A al B
+const DISTANCIA_KILOMETROS = 5510; // Distancia en kilometros de punto A al B (tomar de google maps ;))
 
 const ciudadOrigen = "14160";
 const ciudadDestino = "9010";

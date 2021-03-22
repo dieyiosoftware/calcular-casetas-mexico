@@ -1,8 +1,9 @@
 const { URLSearchParams } = require("url");
 const fetch = require("node-fetch");
 
+// Obtener apiKey de aqui http://gaia.inegi.org.mx/sakbe_v3.1/genera_token.jsp
 // API docs https://www.inegi.org.mx/servicios/Ruteo/Default.html
-const apiKey = "UIZyOJao-cxof-nMHq-7KHy-nm7Os2aYWxPN";
+const apiKey = "skJZIVXq-qJfc-hyJT-hd4X-VFNfKBIsqkOc";
 const baseUrl = "https://gaia.inegi.org.mx/sakbe_v3.1";
 
 const getDestinationIdByKeyword = async (value) => {
